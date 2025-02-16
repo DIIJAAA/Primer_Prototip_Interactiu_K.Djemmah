@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace Primer_Prototip_Interactiu_K.Djemmah
 {
-    public partial class PaginaInici : Form
+    public partial class MenuPrincipal : Form
     {
-        public PaginaInici()
+        public MenuPrincipal()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void MenuPrincipal_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
