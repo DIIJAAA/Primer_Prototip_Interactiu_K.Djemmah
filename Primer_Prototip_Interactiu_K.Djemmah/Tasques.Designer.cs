@@ -73,10 +73,10 @@
             menuStrip2.BackColor = Color.RosyBrown;
             menuStrip2.Dock = DockStyle.None;
             menuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6, toolStripMenuItem7, toolStripMenuItem8, cONTACTEToolStripMenuItem });
-            menuStrip2.Location = new Point(0, 3);
+            menuStrip2.Location = new Point(9, 3);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip2.Size = new Size(901, 55);
+            menuStrip2.Size = new Size(781, 55);
             menuStrip2.TabIndex = 24;
             menuStrip2.Text = "INICI";
             // 

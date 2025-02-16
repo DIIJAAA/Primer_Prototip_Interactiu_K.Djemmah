@@ -41,6 +41,8 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
+            textBox1 = new TextBox();
+            button9 = new Button();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -158,10 +160,10 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel1.BackColor = Color.RosyBrown;
+            tableLayoutPanel1.BackColor = Color.Linen;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Location = new Point(114, 214);
+            tableLayoutPanel1.Location = new Point(108, 201);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 8;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5F));
@@ -175,11 +177,32 @@
             tableLayoutPanel1.Size = new Size(896, 423);
             tableLayoutPanel1.TabIndex = 29;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(108, 134);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(705, 23);
+            textBox1.TabIndex = 31;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.MediumAquamarine;
+            button9.FlatStyle = FlatStyle.Popup;
+            button9.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button9.Location = new Point(874, 126);
+            button9.Name = "button9";
+            button9.Size = new Size(116, 35);
+            button9.TabIndex = 32;
+            button9.Text = "BUSCAR";
+            button9.UseVisualStyleBackColor = false;
+            // 
             // Recursos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1088, 673);
+            Controls.Add(button9);
+            Controls.Add(textBox1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
             Name = "Recursos";
@@ -191,6 +214,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -208,5 +232,7 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private TableLayoutPanel tableLayoutPanel1;
+        private TextBox textBox1;
+        private Button button9;
     }
 }
