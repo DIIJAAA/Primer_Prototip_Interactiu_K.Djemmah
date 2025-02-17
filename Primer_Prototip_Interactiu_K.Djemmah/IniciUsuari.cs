@@ -1,3 +1,5 @@
+using Microsoft.Win32;
+
 namespace Primer_Prototip_Interactiu_K.Djemmah
 {
     public partial class IniciUsuari : Form
@@ -5,26 +7,22 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
         public IniciUsuari()
         {
             InitializeComponent();
+            button1.Click += button1_Click;
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Benvingut/da!", "Missatge de Benvinguda", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            // Obre el formulari de Registre
+            RegistreUsuari formulariRegistre = new RegistreUsuari();
+            formulariRegistre.Show();
 
+            // Tanca o amaga el formulari actual
+            this.Hide(); 
+                        
         }
     }
 }

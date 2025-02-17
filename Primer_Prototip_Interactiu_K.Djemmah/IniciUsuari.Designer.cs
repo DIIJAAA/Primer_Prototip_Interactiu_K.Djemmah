@@ -1,4 +1,6 @@
-﻿namespace Primer_Prototip_Interactiu_K.Djemmah
+﻿using System.Windows.Forms;
+
+namespace Primer_Prototip_Interactiu_K.Djemmah
 {
     partial class IniciUsuari
     {
@@ -18,6 +20,7 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+           
         }
 
         #region Windows Form Designer generated code
@@ -93,13 +96,14 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(806, 614);
+            panel1.Size = new Size(1068, 752);
             panel1.TabIndex = 2;
             // 
             // splitContainer1
             // 
             splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            splitContainer1.Enabled = false;
+            splitContainer1.BackColor = Color.White;
+            splitContainer1.Enabled = true;
             splitContainer1.Location = new Point(0, 0);
             splitContainer1.Name = "splitContainer1";
             splitContainer1.Orientation = Orientation.Horizontal;
@@ -111,9 +115,8 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(panel2);
-            splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(806, 614);
-            splitContainer1.SplitterDistance = 186;
+            splitContainer1.Size = new Size(1068, 752);
+            splitContainer1.SplitterDistance = 227;
             splitContainer1.TabIndex = 3;
             // 
             // pictureBox1
@@ -123,11 +126,10 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(806, 186);
+            pictureBox1.Size = new Size(1068, 227);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // panel2
             // 
@@ -136,7 +138,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(806, 424);
+            panel2.Size = new Size(1068, 521);
             panel2.TabIndex = 17;
             // 
             // panel3
@@ -148,38 +150,43 @@
             panel3.Controls.Add(linkLabel1);
             panel3.Controls.Add(linkLabel2);
             panel3.Controls.Add(button1);
-            panel3.Location = new Point(178, 30);
+            panel3.Location = new Point(279, 30);
             panel3.Name = "panel3";
-            panel3.Size = new Size(479, 362);
+            panel3.Size = new Size(509, 459);
             panel3.TabIndex = 17;
             // 
             // textBox3
             // 
             textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            textBox3.Cursor = Cursors.IBeam;
             textBox3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(128, 45);
+            textBox3.Location = new Point(146, 88);
             textBox3.Margin = new Padding(10, 3, 3, 10);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Usuari";
-            textBox3.Size = new Size(218, 36);
+            textBox3.Size = new Size(235, 36);
             textBox3.TabIndex = 18;
             // 
             // textBox4
             // 
             textBox4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            textBox4.Cursor = Cursors.IBeam;
             textBox4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(128, 104);
+            textBox4.Location = new Point(146, 156);
             textBox4.Name = "textBox4";
+            textBox4.PasswordChar = '*';
             textBox4.PlaceholderText = "Contrasenya";
-            textBox4.Size = new Size(218, 36);
+            textBox4.Size = new Size(235, 36);
             textBox4.TabIndex = 19;
             // 
             // linkLabel1
             // 
+            linkLabel1.ActiveLinkColor = Color.Maroon;
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            linkLabel1.ForeColor = Color.White;
             linkLabel1.LinkColor = Color.WhiteSmoke;
-            linkLabel1.Location = new Point(122, 164);
+            linkLabel1.Location = new Point(146, 209);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(235, 21);
             linkLabel1.TabIndex = 7;
@@ -187,14 +194,16 @@
             linkLabel1.Text = "Has olvidat la teva contrasenya?";
             linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
             linkLabel1.VisitedLinkColor = Color.FromArgb(64, 0, 0);
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // linkLabel2
             // 
+            linkLabel2.ActiveLinkColor = Color.Maroon;
+            linkLabel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             linkLabel2.AutoSize = true;
             linkLabel2.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            linkLabel2.ForeColor = Color.White;
             linkLabel2.LinkColor = Color.WhiteSmoke;
-            linkLabel2.Location = new Point(117, 298);
+            linkLabel2.Location = new Point(146, 345);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(229, 21);
             linkLabel2.TabIndex = 8;
@@ -206,18 +215,19 @@
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.None;
+            button1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             button1.AutoSize = true;
             button1.BackColor = Color.LightSeaGreen;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Alef", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(155, 236);
+            button1.Location = new Point(168, 269);
             button1.Name = "button1";
-            button1.Size = new Size(151, 39);
+            button1.Size = new Size(181, 39);
             button1.TabIndex = 0;
             button1.Text = "Inicia sessió";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // IniciUsuari
             // 
@@ -225,7 +235,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = Color.Linen;
-            ClientSize = new Size(806, 614);
+            ClientSize = new Size(1068, 752);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
             ForeColor = Color.Black;
