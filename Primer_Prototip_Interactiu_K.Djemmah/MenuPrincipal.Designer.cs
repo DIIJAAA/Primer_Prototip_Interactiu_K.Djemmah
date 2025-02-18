@@ -57,8 +57,8 @@
             label1 = new Label();
             label2 = new Label();
             panel5 = new Panel();
-            pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
+            pictureBox6 = new PictureBox();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -70,8 +70,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -118,9 +118,9 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(63, 285);
+            panel1.Location = new Point(270, 339);
             panel1.Name = "panel1";
-            panel1.Size = new Size(222, 252);
+            panel1.Size = new Size(272, 293);
             panel1.TabIndex = 14;
             // 
             // button9
@@ -128,7 +128,7 @@
             button9.BackColor = Color.FloralWhite;
             button9.FlatStyle = FlatStyle.Popup;
             button9.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(59, 190);
+            button9.Location = new Point(88, 219);
             button9.Name = "button9";
             button9.Size = new Size(108, 32);
             button9.TabIndex = 11;
@@ -138,9 +138,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.horari;
-            pictureBox1.Location = new Point(49, 40);
+            pictureBox1.Location = new Point(62, 40);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(118, 119);
+            pictureBox1.Size = new Size(154, 144);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
@@ -153,7 +153,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(512, 335);
+            button2.Location = new Point(-30, 355);
             button2.Name = "button2";
             button2.Size = new Size(150, 49);
             button2.TabIndex = 9;
@@ -168,7 +168,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(297, 335);
+            button1.Location = new Point(-245, 355);
             button1.Name = "button1";
             button1.Size = new Size(177, 49);
             button1.TabIndex = 8;
@@ -183,9 +183,9 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(button3);
             panel2.Controls.Add(button4);
-            panel2.Location = new Point(318, 285);
+            panel2.Location = new Point(588, 339);
             panel2.Name = "panel2";
-            panel2.Size = new Size(222, 252);
+            panel2.Size = new Size(280, 293);
             panel2.TabIndex = 15;
             // 
             // button10
@@ -193,7 +193,7 @@
             button10.BackColor = Color.FloralWhite;
             button10.FlatStyle = FlatStyle.Popup;
             button10.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(58, 190);
+            button10.Location = new Point(87, 219);
             button10.Name = "button10";
             button10.Size = new Size(108, 32);
             button10.TabIndex = 12;
@@ -203,9 +203,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.tasques;
-            pictureBox2.Location = new Point(58, 40);
+            pictureBox2.Location = new Point(65, 40);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(123, 119);
+            pictureBox2.Size = new Size(140, 144);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 10;
             pictureBox2.TabStop = false;
@@ -218,7 +218,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(523, 411);
+            button3.Location = new Point(-15, 431);
             button3.Name = "button3";
             button3.Size = new Size(150, 49);
             button3.TabIndex = 9;
@@ -233,7 +233,7 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(308, 411);
+            button4.Location = new Point(-230, 431);
             button4.Name = "button4";
             button4.Size = new Size(177, 49);
             button4.TabIndex = 8;
@@ -248,9 +248,9 @@
             panel3.Controls.Add(pictureBox3);
             panel3.Controls.Add(button5);
             panel3.Controls.Add(button6);
-            panel3.Location = new Point(569, 285);
+            panel3.Location = new Point(930, 339);
             panel3.Name = "panel3";
-            panel3.Size = new Size(222, 252);
+            panel3.Size = new Size(273, 293);
             panel3.TabIndex = 16;
             // 
             // button11
@@ -258,7 +258,7 @@
             button11.BackColor = Color.FloralWhite;
             button11.FlatStyle = FlatStyle.Popup;
             button11.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button11.Location = new Point(59, 190);
+            button11.Location = new Point(86, 219);
             button11.Name = "button11";
             button11.Size = new Size(108, 32);
             button11.TabIndex = 12;
@@ -268,9 +268,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.progres;
-            pictureBox3.Location = new Point(59, 40);
+            pictureBox3.Location = new Point(63, 40);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(108, 119);
+            pictureBox3.Size = new Size(148, 144);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 10;
             pictureBox3.TabStop = false;
@@ -283,7 +283,7 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(523, 411);
+            button5.Location = new Point(-19, 431);
             button5.Name = "button5";
             button5.Size = new Size(150, 49);
             button5.TabIndex = 9;
@@ -298,7 +298,7 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.White;
-            button6.Location = new Point(308, 411);
+            button6.Location = new Point(-234, 431);
             button6.Name = "button6";
             button6.Size = new Size(177, 49);
             button6.TabIndex = 8;
@@ -307,15 +307,14 @@
             // 
             // panel4
             // 
-            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel4.BackColor = Color.RosyBrown;
             panel4.Controls.Add(button12);
             panel4.Controls.Add(pictureBox4);
             panel4.Controls.Add(button7);
             panel4.Controls.Add(button8);
-            panel4.Location = new Point(819, 285);
+            panel4.Location = new Point(1267, 339);
             panel4.Name = "panel4";
-            panel4.Size = new Size(222, 252);
+            panel4.Size = new Size(273, 293);
             panel4.TabIndex = 17;
             // 
             // button12
@@ -323,7 +322,7 @@
             button12.BackColor = Color.FloralWhite;
             button12.FlatStyle = FlatStyle.Popup;
             button12.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(47, 190);
+            button12.Location = new Point(86, 219);
             button12.Name = "button12";
             button12.Size = new Size(125, 32);
             button12.TabIndex = 12;
@@ -333,9 +332,9 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.rescursos;
-            pictureBox4.Location = new Point(47, 40);
+            pictureBox4.Location = new Point(73, 40);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(125, 119);
+            pictureBox4.Size = new Size(138, 144);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 10;
             pictureBox4.TabStop = false;
@@ -348,7 +347,7 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.White;
-            button7.Location = new Point(523, 411);
+            button7.Location = new Point(268, 431);
             button7.Name = "button7";
             button7.Size = new Size(150, 49);
             button7.TabIndex = 9;
@@ -363,7 +362,7 @@
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Alef", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button8.ForeColor = Color.White;
-            button8.Location = new Point(308, 411);
+            button8.Location = new Point(53, 431);
             button8.Name = "button8";
             button8.Size = new Size(177, 49);
             button8.TabIndex = 8;
@@ -372,17 +371,17 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(306, 228);
+            progressBar1.Location = new Point(438, 285);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(472, 10);
+            progressBar1.Size = new Size(828, 10);
             progressBar1.TabIndex = 18;
             // 
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.usuari2;
-            pictureBox5.Location = new Point(306, 107);
+            pictureBox5.Location = new Point(453, 141);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(106, 103);
+            pictureBox5.Size = new Size(129, 125);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 19;
             pictureBox5.TabStop = false;
@@ -390,22 +389,24 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(429, 115);
+            label1.Font = new Font("Alef", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.RosyBrown;
+            label1.Location = new Point(588, 141);
             label1.Name = "label1";
-            label1.Size = new Size(133, 26);
+            label1.Size = new Size(109, 43);
             label1.TabIndex = 20;
-            label1.Text = "NOM USUARI";
+            label1.Text = "DIJAA";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(438, 141);
+            label2.Location = new Point(609, 196);
             label2.Name = "label2";
-            label2.Size = new Size(64, 26);
+            label2.Size = new Size(572, 26);
             label2.TabIndex = 21;
-            label2.Text = "Dades";
+            label2.Text = "Nivell Educatiu, progrès de matèries, Avisos de tasques o events ";
             label2.Click += label2_Click;
             // 
             // panel5
@@ -416,35 +417,35 @@
             panel5.Dock = DockStyle.Top;
             panel5.Location = new Point(0, 0);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1095, 72);
+            panel5.Size = new Size(1823, 72);
             panel5.TabIndex = 22;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Image = Properties.Resources.logoo;
-            pictureBox6.Location = new Point(483, -32);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(211, 111);
-            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 23;
-            pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.logooo;
-            pictureBox7.Location = new Point(418, 3);
+            pictureBox7.Location = new Point(684, 3);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(81, 62);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 24;
             pictureBox7.TabStop = false;
             // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = Properties.Resources.logoo;
+            pictureBox6.Location = new Point(771, -30);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(211, 111);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 23;
+            pictureBox6.TabStop = false;
+            // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1095, 601);
+            ClientSize = new Size(1823, 688);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox5);
@@ -474,8 +475,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

@@ -194,6 +194,8 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             linkLabel1.Text = "Has olvidat la teva contrasenya?";
             linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
             linkLabel1.VisitedLinkColor = Color.FromArgb(64, 0, 0);
+            linkLabel1.LinkClicked += new LinkLabelLinkClickedEventHandler(linkLabel1_LinkClicked);
+
             // 
             // linkLabel2
             // 
