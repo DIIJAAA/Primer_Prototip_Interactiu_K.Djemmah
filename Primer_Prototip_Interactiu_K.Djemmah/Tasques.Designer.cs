@@ -37,18 +37,18 @@
             toolStripMenuItem6 = new ToolStripMenuItem();
             toolStripMenuItem7 = new ToolStripMenuItem();
             toolStripMenuItem8 = new ToolStripMenuItem();
+            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
             label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             button9 = new Button();
-            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             panel5.SuspendLayout();
             menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -65,7 +65,7 @@
             panel5.Dock = DockStyle.Top;
             panel5.Location = new Point(0, 0);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1080, 62);
+            panel5.Size = new Size(1424, 62);
             panel5.TabIndex = 26;
             // 
             // menuStrip2
@@ -95,6 +95,7 @@
             toolStripMenuItem3.Name = "toolStripMenuItem3";
             toolStripMenuItem3.Size = new Size(68, 51);
             toolStripMenuItem3.Text = "INICI";
+            toolStripMenuItem3.Click += toolStripMenuItem3_Click;
             // 
             // toolStripMenuItem4
             // 
@@ -103,6 +104,7 @@
             toolStripMenuItem4.Name = "toolStripMenuItem4";
             toolStripMenuItem4.Size = new Size(84, 51);
             toolStripMenuItem4.Text = "PERFIL";
+            toolStripMenuItem4.Click += toolStripMenuItem4_Click;
             // 
             // toolStripMenuItem5
             // 
@@ -111,6 +113,7 @@
             toolStripMenuItem5.Name = "toolStripMenuItem5";
             toolStripMenuItem5.Size = new Size(96, 51);
             toolStripMenuItem5.Text = "HORARI";
+            toolStripMenuItem5.Click += toolStripMenuItem5_Click;
             // 
             // toolStripMenuItem6
             // 
@@ -127,6 +130,7 @@
             toolStripMenuItem7.Name = "toolStripMenuItem7";
             toolStripMenuItem7.Size = new Size(108, 51);
             toolStripMenuItem7.Text = "PROGRÈS";
+            toolStripMenuItem7.Click += toolStripMenuItem7_Click;
             // 
             // toolStripMenuItem8
             // 
@@ -135,11 +139,21 @@
             toolStripMenuItem8.Name = "toolStripMenuItem8";
             toolStripMenuItem8.Size = new Size(121, 51);
             toolStripMenuItem8.Text = "RECURSOS";
+            toolStripMenuItem8.Click += toolStripMenuItem8_Click;
+            // 
+            // cONTACTEToolStripMenuItem
+            // 
+            cONTACTEToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cONTACTEToolStripMenuItem.ForeColor = Color.White;
+            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
+            cONTACTEToolStripMenuItem.Size = new Size(124, 51);
+            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
             // 
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.logoo;
-            pictureBox6.Location = new Point(852, -11);
+            pictureBox6.Location = new Point(1231, -7);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(124, 69);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
@@ -149,7 +163,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.logooo;
-            pictureBox7.Location = new Point(972, 3);
+            pictureBox7.Location = new Point(1349, 12);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(63, 45);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -160,6 +174,7 @@
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel1.BackColor = Color.RosyBrown;
+            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
             tableLayoutPanel1.ColumnCount = 7;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 14.2857141F));
@@ -175,91 +190,13 @@
             tableLayoutPanel1.Controls.Add(label3, 2, 0);
             tableLayoutPanel1.Controls.Add(label2, 1, 0);
             tableLayoutPanel1.Controls.Add(label1, 0, 0);
-            tableLayoutPanel1.Location = new Point(102, 96);
+            tableLayoutPanel1.Location = new Point(200, 135);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 340F));
-            tableLayoutPanel1.Size = new Size(893, 372);
+            tableLayoutPanel1.Size = new Size(1043, 372);
             tableLayoutPanel1.TabIndex = 28;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(3, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(121, 32);
-            label1.TabIndex = 3;
-            label1.Text = "DILLUNS";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Dock = DockStyle.Fill;
-            label2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(130, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 32);
-            label2.TabIndex = 4;
-            label2.Text = "DIMARTS";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(257, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(121, 32);
-            label3.TabIndex = 5;
-            label3.Text = "DIMECRES";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Dock = DockStyle.Fill;
-            label4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(384, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(121, 32);
-            label4.TabIndex = 6;
-            label4.Text = "DIJOUS";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Dock = DockStyle.Fill;
-            label5.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(511, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(121, 32);
-            label5.TabIndex = 7;
-            label5.Text = "DIVENDRES";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Dock = DockStyle.Fill;
-            label6.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(638, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(121, 32);
-            label6.TabIndex = 8;
-            label6.Text = "DISSABTE";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -267,38 +204,109 @@
             label7.Dock = DockStyle.Fill;
             label7.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(765, 0);
+            label7.Location = new Point(893, 2);
             label7.Name = "label7";
-            label7.Size = new Size(125, 32);
+            label7.Size = new Size(145, 26);
             label7.TabIndex = 9;
             label7.Text = "DIUMENGE";
             label7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Dock = DockStyle.Fill;
+            label6.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(745, 2);
+            label6.Name = "label6";
+            label6.Size = new Size(140, 26);
+            label6.TabIndex = 8;
+            label6.Text = "DISSABTE";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Dock = DockStyle.Fill;
+            label5.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(597, 2);
+            label5.Name = "label5";
+            label5.Size = new Size(140, 26);
+            label5.TabIndex = 7;
+            label5.Text = "DIVENDRES";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Dock = DockStyle.Fill;
+            label4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(449, 2);
+            label4.Name = "label4";
+            label4.Size = new Size(140, 26);
+            label4.TabIndex = 6;
+            label4.Text = "DIJOUS";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Dock = DockStyle.Fill;
+            label3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(301, 2);
+            label3.Name = "label3";
+            label3.Size = new Size(140, 26);
+            label3.TabIndex = 5;
+            label3.Text = "DIMECRES";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Dock = DockStyle.Fill;
+            label2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(153, 2);
+            label2.Name = "label2";
+            label2.Size = new Size(140, 26);
+            label2.TabIndex = 4;
+            label2.Text = "DIMARTS";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(5, 2);
+            label1.Name = "label1";
+            label1.Size = new Size(140, 26);
+            label1.TabIndex = 3;
+            label1.Text = "DILLUNS";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // button9
             // 
             button9.BackColor = Color.MediumAquamarine;
             button9.FlatStyle = FlatStyle.Popup;
             button9.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(879, 477);
+            button9.Location = new Point(1127, 525);
             button9.Name = "button9";
             button9.Size = new Size(116, 32);
             button9.TabIndex = 26;
             button9.Text = "CREA ";
             button9.UseVisualStyleBackColor = false;
-            // 
-            // cONTACTEToolStripMenuItem
-            // 
-            cONTACTEToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cONTACTEToolStripMenuItem.ForeColor = Color.White;
-            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
-            cONTACTEToolStripMenuItem.Size = new Size(124, 51);
-            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            button9.Click += button9_Click;
             // 
             // Tasques
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1080, 521);
+            ClientSize = new Size(1424, 593);
             Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel5);

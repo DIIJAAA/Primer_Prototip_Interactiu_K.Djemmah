@@ -1,16 +1,9 @@
 ﻿namespace Primer_Prototip_Interactiu_K.Djemmah
 {
-    partial class Form1
+    partial class Contacte
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,282 +15,308 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            menuStrip2 = new MenuStrip();
-            toolStripMenuItem2 = new ToolStripMenuItem();
-            toolStripMenuItem3 = new ToolStripMenuItem();
-            toolStripMenuItem4 = new ToolStripMenuItem();
-            toolStripMenuItem5 = new ToolStripMenuItem();
-            toolStripMenuItem6 = new ToolStripMenuItem();
-            toolStripMenuItem7 = new ToolStripMenuItem();
-            toolStripMenuItem8 = new ToolStripMenuItem();
-            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
-            panel4 = new Panel();
-            linkLabel1 = new LinkLabel();
-            button1 = new Button();
-            textBox2 = new TextBox();
+            textBox7 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            button2 = new Button();
+            panel1 = new Panel();
+            panel5 = new Panel();
+            menuStrip1 = new MenuStrip();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            iNICIToolStripMenuItem = new ToolStripMenuItem();
+            pERFILToolStripMenuItem = new ToolStripMenuItem();
+            hORARIToolStripMenuItem = new ToolStripMenuItem();
+            tASQUESToolStripMenuItem = new ToolStripMenuItem();
+            pROGRÈSToolStripMenuItem = new ToolStripMenuItem();
+            rECURSOSToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem9 = new ToolStripMenuItem();
+            pictureBox6 = new PictureBox();
+            pictureBox7 = new PictureBox();
+            richTextBox1 = new RichTextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            richTextBox1 = new RichTextBox();
-            menuStrip2.SuspendLayout();
-            panel4.SuspendLayout();
+            panel1.SuspendLayout();
+            panel5.SuspendLayout();
+            menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
-            // menuStrip2
+            // textBox7
             // 
-            menuStrip2.BackColor = Color.RosyBrown;
-            menuStrip2.Items.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6, toolStripMenuItem7, toolStripMenuItem8, cONTACTEToolStripMenuItem });
-            menuStrip2.Location = new Point(0, 0);
-            menuStrip2.Name = "menuStrip2";
-            menuStrip2.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip2.Size = new Size(1086, 55);
-            menuStrip2.TabIndex = 25;
-            menuStrip2.Text = "INICI";
+            textBox7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            textBox7.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox7.Location = new Point(300, 68);
+            textBox7.Margin = new Padding(10, 3, 3, 10);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(316, 36);
+            textBox7.TabIndex = 2;
             // 
-            // toolStripMenuItem2
+            // textBox3
             // 
-            toolStripMenuItem2.Font = new Font("Alef", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem2.ForeColor = SystemColors.MenuBar;
-            toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(62, 51);
-            toolStripMenuItem2.Text = "...";
+            textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            textBox3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(300, 142);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(316, 36);
+            textBox3.TabIndex = 3;
             // 
-            // toolStripMenuItem3
+            // textBox4
             // 
-            toolStripMenuItem3.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem3.ForeColor = Color.White;
-            toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(68, 51);
-            toolStripMenuItem3.Text = "INICI";
+            textBox4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            textBox4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.Location = new Point(300, 216);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(316, 36);
+            textBox4.TabIndex = 5;
             // 
-            // toolStripMenuItem4
+            // button2
             // 
-            toolStripMenuItem4.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem4.ForeColor = Color.White;
-            toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(84, 51);
-            toolStripMenuItem4.Text = "PERFIL";
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            button2.AutoSize = true;
+            button2.BackColor = Color.LightSeaGreen;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Alef", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.Snow;
+            button2.Location = new Point(339, 418);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 39);
+            button2.TabIndex = 0;
+            button2.Text = "Enviar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
-            // toolStripMenuItem5
+            // panel1
             // 
-            toolStripMenuItem5.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem5.ForeColor = Color.White;
-            toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Size = new Size(96, 51);
-            toolStripMenuItem5.Text = "HORARI";
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            panel1.BackColor = Color.RosyBrown;
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(richTextBox1);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(textBox4);
+            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(textBox7);
+            panel1.Location = new Point(423, 87);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(785, 505);
+            panel1.TabIndex = 19;
             // 
-            // toolStripMenuItem6
+            // panel5
             // 
-            toolStripMenuItem6.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem6.ForeColor = Color.White;
-            toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Size = new Size(110, 51);
-            toolStripMenuItem6.Text = "TASQUES";
+            panel5.BackColor = Color.RosyBrown;
+            panel5.Controls.Add(menuStrip1);
+            panel5.Controls.Add(pictureBox6);
+            panel5.Controls.Add(pictureBox7);
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(0, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1633, 62);
+            panel5.TabIndex = 26;
             // 
-            // toolStripMenuItem7
+            // menuStrip1
             // 
-            toolStripMenuItem7.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem7.ForeColor = Color.White;
-            toolStripMenuItem7.Name = "toolStripMenuItem7";
-            toolStripMenuItem7.Size = new Size(108, 51);
-            toolStripMenuItem7.Text = "PROGRÈS";
+            menuStrip1.BackColor = Color.RosyBrown;
+            menuStrip1.Dock = DockStyle.None;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, iNICIToolStripMenuItem, pERFILToolStripMenuItem, hORARIToolStripMenuItem, tASQUESToolStripMenuItem, pROGRÈSToolStripMenuItem, rECURSOSToolStripMenuItem, toolStripMenuItem9 });
+            menuStrip1.Location = new Point(0, 3);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.RenderMode = ToolStripRenderMode.Professional;
+            menuStrip1.Size = new Size(781, 55);
+            menuStrip1.TabIndex = 24;
+            menuStrip1.Text = "INICI";
             // 
-            // toolStripMenuItem8
+            // toolStripMenuItem1
             // 
-            toolStripMenuItem8.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            toolStripMenuItem8.ForeColor = Color.White;
-            toolStripMenuItem8.Name = "toolStripMenuItem8";
-            toolStripMenuItem8.Size = new Size(121, 51);
-            toolStripMenuItem8.Text = "RECURSOS";
+            toolStripMenuItem1.Font = new Font("Alef", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            toolStripMenuItem1.ForeColor = SystemColors.MenuBar;
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(62, 51);
+            toolStripMenuItem1.Text = "...";
             // 
-            // cONTACTEToolStripMenuItem
+            // iNICIToolStripMenuItem
             // 
-            cONTACTEToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cONTACTEToolStripMenuItem.ForeColor = Color.Maroon;
-            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
-            cONTACTEToolStripMenuItem.Size = new Size(124, 51);
-            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            iNICIToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            iNICIToolStripMenuItem.ForeColor = Color.White;
+            iNICIToolStripMenuItem.Name = "iNICIToolStripMenuItem";
+            iNICIToolStripMenuItem.Size = new Size(68, 51);
+            iNICIToolStripMenuItem.Text = "INICI";
+            iNICIToolStripMenuItem.Click += iNICIToolStripMenuItem_Click;
             // 
-            // panel4
+            // pERFILToolStripMenuItem
             // 
-            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel4.BackColor = Color.RosyBrown;
-            panel4.Controls.Add(richTextBox1);
-            panel4.Controls.Add(textBox6);
-            panel4.Controls.Add(textBox5);
-            panel4.Controls.Add(label4);
-            panel4.Controls.Add(label3);
-            panel4.Controls.Add(label2);
-            panel4.Controls.Add(label1);
-            panel4.Controls.Add(linkLabel1);
-            panel4.Controls.Add(button1);
-            panel4.Controls.Add(textBox2);
-            panel4.Location = new Point(204, 81);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(674, 454);
-            panel4.TabIndex = 26;
+            pERFILToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            pERFILToolStripMenuItem.ForeColor = Color.White;
+            pERFILToolStripMenuItem.Name = "pERFILToolStripMenuItem";
+            pERFILToolStripMenuItem.Size = new Size(84, 51);
+            pERFILToolStripMenuItem.Text = "PERFIL";
+            pERFILToolStripMenuItem.Click += pERFILToolStripMenuItem_Click;
             // 
-            // linkLabel1
+            // hORARIToolStripMenuItem
             // 
-            linkLabel1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            linkLabel1.LinkColor = Color.WhiteSmoke;
-            linkLabel1.Location = new Point(238, 637);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(228, 21);
-            linkLabel1.TabIndex = 21;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Ja tens un compte? Inicia Sessió";
-            linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
-            linkLabel1.VisitedLinkColor = Color.FromArgb(64, 0, 0);
+            hORARIToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            hORARIToolStripMenuItem.ForeColor = Color.White;
+            hORARIToolStripMenuItem.Name = "hORARIToolStripMenuItem";
+            hORARIToolStripMenuItem.Size = new Size(96, 51);
+            hORARIToolStripMenuItem.Text = "HORARI";
+            hORARIToolStripMenuItem.Click += hORARIToolStripMenuItem_Click;
             // 
-            // button1
+            // tASQUESToolStripMenuItem
             // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            button1.AutoSize = true;
-            button1.BackColor = Color.LightSeaGreen;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Alef", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(434, 392);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 39);
-            button1.TabIndex = 0;
-            button1.Text = "ENVIA";
-            button1.UseVisualStyleBackColor = false;
+            tASQUESToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tASQUESToolStripMenuItem.ForeColor = Color.White;
+            tASQUESToolStripMenuItem.Name = "tASQUESToolStripMenuItem";
+            tASQUESToolStripMenuItem.Size = new Size(110, 51);
+            tASQUESToolStripMenuItem.Text = "TASQUES";
+            tASQUESToolStripMenuItem.Click += tASQUESToolStripMenuItem_Click;
             // 
-            // textBox2
+            // pROGRÈSToolStripMenuItem
             // 
-            textBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            textBox2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(297, 196);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(249, 36);
-            textBox2.TabIndex = 3;
+            pROGRÈSToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            pROGRÈSToolStripMenuItem.ForeColor = Color.White;
+            pROGRÈSToolStripMenuItem.Name = "pROGRÈSToolStripMenuItem";
+            pROGRÈSToolStripMenuItem.Size = new Size(108, 51);
+            pROGRÈSToolStripMenuItem.Text = "PROGRÈS";
+            pROGRÈSToolStripMenuItem.Click += pROGRÈSToolStripMenuItem_Click;
             // 
-            // label1
+            // rECURSOSToolStripMenuItem
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label1.AutoSize = true;
-            label1.Font = new Font("Alef", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(92, 201);
-            label1.Name = "label1";
-            label1.Size = new Size(176, 26);
-            label1.TabIndex = 22;
-            label1.Text = "Correu electrònic";
-            label1.Click += label1_Click;
+            rECURSOSToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rECURSOSToolStripMenuItem.ForeColor = Color.White;
+            rECURSOSToolStripMenuItem.Name = "rECURSOSToolStripMenuItem";
+            rECURSOSToolStripMenuItem.Size = new Size(121, 51);
+            rECURSOSToolStripMenuItem.Text = "RECURSOS";
+            rECURSOSToolStripMenuItem.Click += rECURSOSToolStripMenuItem_Click;
             // 
-            // label2
+            // toolStripMenuItem9
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label2.AutoSize = true;
-            label2.Font = new Font("Alef", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(136, 130);
-            label2.Name = "label2";
-            label2.Size = new Size(132, 26);
-            label2.TabIndex = 23;
-            label2.Text = "Contrasenya";
+            toolStripMenuItem9.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            toolStripMenuItem9.ForeColor = Color.Maroon;
+            toolStripMenuItem9.Name = "toolStripMenuItem9";
+            toolStripMenuItem9.Size = new Size(124, 51);
+            toolStripMenuItem9.Text = "CONTACTE";
             // 
-            // label3
+            // pictureBox6
             // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label3.AutoSize = true;
-            label3.Font = new Font("Alef", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(174, 265);
-            label3.Name = "label3";
-            label3.Size = new Size(94, 26);
-            label3.TabIndex = 24;
-            label3.Text = "Consulta";
+            pictureBox6.Image = Properties.Resources.logoo;
+            pictureBox6.Location = new Point(1392, -11);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(124, 69);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 23;
+            pictureBox6.TabStop = false;
             // 
-            // label4
+            // pictureBox7
             // 
-            label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label4.AutoSize = true;
-            label4.Font = new Font("Alef", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(192, 68);
-            label4.Name = "label4";
-            label4.Size = new Size(76, 26);
-            label4.TabIndex = 25;
-            label4.Text = "Usuari";
-            // 
-            // textBox5
-            // 
-            textBox5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            textBox5.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.Location = new Point(297, 125);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(249, 36);
-            textBox5.TabIndex = 27;
-            // 
-            // textBox6
-            // 
-            textBox6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            textBox6.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(297, 63);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(249, 36);
-            textBox6.TabIndex = 28;
+            pictureBox7.Image = Properties.Resources.logooo;
+            pictureBox7.Location = new Point(1513, 3);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(63, 45);
+            pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox7.TabIndex = 24;
+            pictureBox7.TabStop = false;
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(297, 265);
+            richTextBox1.Location = new Point(300, 284);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(249, 96);
-            richTextBox1.TabIndex = 29;
+            richTextBox1.Size = new Size(316, 93);
+            richTextBox1.TabIndex = 22;
             richTextBox1.Text = "";
             // 
-            // Form1
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(177, 294);
+            label1.Name = "label1";
+            label1.Size = new Size(95, 28);
+            label1.TabIndex = 23;
+            label1.Text = "Consulta";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(195, 73);
+            label2.Name = "label2";
+            label2.Size = new Size(76, 28);
+            label2.TabIndex = 24;
+            label2.Text = "Usuari";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(138, 145);
+            label3.Name = "label3";
+            label3.Size = new Size(133, 28);
+            label3.TabIndex = 25;
+            label3.Text = "Contrasenya";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(94, 219);
+            label4.Name = "label4";
+            label4.Size = new Size(177, 28);
+            label4.TabIndex = 26;
+            label4.Text = "Correu electrònic";
+            // 
+            // Contacte
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1086, 590);
-            Controls.Add(panel4);
-            Controls.Add(menuStrip2);
-            Name = "Form1";
-            Load += Form1_Load;
-            menuStrip2.ResumeLayout(false);
-            menuStrip2.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
+            ClientSize = new Size(1633, 621);
+            Controls.Add(panel5);
+            Controls.Add(panel1);
+            Name = "Contacte";
+            Text = "Formulari de Contacte";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private MenuStrip menuStrip2;
-        private ToolStripMenuItem toolStripMenuItem2;
-        private ToolStripMenuItem toolStripMenuItem3;
-        private ToolStripMenuItem toolStripMenuItem4;
-        private ToolStripMenuItem toolStripMenuItem5;
-        private ToolStripMenuItem toolStripMenuItem6;
-        private ToolStripMenuItem toolStripMenuItem7;
-        private ToolStripMenuItem toolStripMenuItem8;
-        private ToolStripMenuItem cONTACTEToolStripMenuItem;
-        private Panel panel4;
-        private LinkLabel linkLabel1;
-        private Button button1;
-        private TextBox textBox2;
-        private Label label1;
+        private TextBox textBox7;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private Button button2;
+        private Panel panel1;
+        private Panel panel5;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem iNICIToolStripMenuItem;
+        private ToolStripMenuItem pERFILToolStripMenuItem;
+        private ToolStripMenuItem hORARIToolStripMenuItem;
+        private ToolStripMenuItem tASQUESToolStripMenuItem;
+        private ToolStripMenuItem pROGRÈSToolStripMenuItem;
+        private ToolStripMenuItem rECURSOSToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem9;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
         private Label label4;
         private Label label3;
         private Label label2;
+        private Label label1;
         private RichTextBox richTextBox1;
-        private TextBox textBox6;
-        private TextBox textBox5;
     }
 }

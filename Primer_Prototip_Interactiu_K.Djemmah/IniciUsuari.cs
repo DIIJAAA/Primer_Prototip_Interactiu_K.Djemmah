@@ -21,7 +21,7 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             }
             else
             {
-                MessageBox.Show("Contrasenya Incorrecta!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Contrasenya o Usuari Incorrectes!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBox4.Clear();
             }
         }
@@ -50,8 +50,9 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             {
                 // Mostra el missatge que s'ha enviat un correu electrònic
                 MessageBox.Show("S'ha enviat un correu electrònic per restablir la teva contrasenya.", "Correu Enviat", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
+
             }
         }
+
     }
 }

@@ -58,7 +58,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1088, 62);
+            panel1.Size = new Size(1448, 62);
             panel1.TabIndex = 28;
             // 
             // menuStrip1
@@ -88,6 +88,7 @@
             toolStripMenuItem9.Name = "toolStripMenuItem9";
             toolStripMenuItem9.Size = new Size(68, 51);
             toolStripMenuItem9.Text = "INICI";
+            toolStripMenuItem9.Click += toolStripMenuItem9_Click;
             // 
             // toolStripMenuItem10
             // 
@@ -96,6 +97,7 @@
             toolStripMenuItem10.Name = "toolStripMenuItem10";
             toolStripMenuItem10.Size = new Size(84, 51);
             toolStripMenuItem10.Text = "PERFIL";
+            toolStripMenuItem10.Click += toolStripMenuItem10_Click;
             // 
             // toolStripMenuItem11
             // 
@@ -104,6 +106,7 @@
             toolStripMenuItem11.Name = "toolStripMenuItem11";
             toolStripMenuItem11.Size = new Size(96, 51);
             toolStripMenuItem11.Text = "HORARI";
+            toolStripMenuItem11.Click += toolStripMenuItem11_Click;
             // 
             // toolStripMenuItem12
             // 
@@ -112,6 +115,7 @@
             toolStripMenuItem12.Name = "toolStripMenuItem12";
             toolStripMenuItem12.Size = new Size(110, 51);
             toolStripMenuItem12.Text = "TASQUES";
+            toolStripMenuItem12.Click += toolStripMenuItem12_Click;
             // 
             // toolStripMenuItem13
             // 
@@ -120,6 +124,7 @@
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(108, 51);
             toolStripMenuItem13.Text = "PROGRÈS";
+            toolStripMenuItem13.Click += toolStripMenuItem13_Click;
             // 
             // toolStripMenuItem14
             // 
@@ -136,11 +141,12 @@
             cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
             cONTACTEToolStripMenuItem.Size = new Size(124, 51);
             cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.logoo;
-            pictureBox1.Location = new Point(852, -11);
+            pictureBox1.Location = new Point(1257, -7);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(124, 69);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -150,7 +156,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.logooo;
-            pictureBox2.Location = new Point(972, 3);
+            pictureBox2.Location = new Point(1373, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(63, 45);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -160,7 +166,8 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel1.BackColor = Color.Linen;
+            tableLayoutPanel1.BackColor = Color.LavenderBlush;
+            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.InsetDouble;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Location = new Point(108, 201);
@@ -174,7 +181,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5F));
-            tableLayoutPanel1.Size = new Size(896, 423);
+            tableLayoutPanel1.Size = new Size(1256, 423);
             tableLayoutPanel1.TabIndex = 29;
             // 
             // textBox1
@@ -195,12 +202,13 @@
             button9.TabIndex = 32;
             button9.Text = "BUSCAR";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // Recursos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1088, 673);
+            ClientSize = new Size(1448, 673);
             Controls.Add(button9);
             Controls.Add(textBox1);
             Controls.Add(tableLayoutPanel1);

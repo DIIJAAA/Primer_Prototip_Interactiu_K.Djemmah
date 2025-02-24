@@ -103,7 +103,6 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             // 
             splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             splitContainer1.BackColor = Color.White;
-            splitContainer1.Enabled = true;
             splitContainer1.Location = new Point(0, 0);
             splitContainer1.Name = "splitContainer1";
             splitContainer1.Orientation = Orientation.Horizontal;
@@ -194,8 +193,7 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             linkLabel1.Text = "Has olvidat la teva contrasenya?";
             linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
             linkLabel1.VisitedLinkColor = Color.FromArgb(64, 0, 0);
-            linkLabel1.LinkClicked += new LinkLabelLinkClickedEventHandler(linkLabel1_LinkClicked);
-
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // linkLabel2
             // 

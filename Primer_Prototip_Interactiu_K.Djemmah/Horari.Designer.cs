@@ -37,13 +37,13 @@
             tASQUESToolStripMenuItem = new ToolStripMenuItem();
             pROGRÈSToolStripMenuItem = new ToolStripMenuItem();
             rECURSOSToolStripMenuItem = new ToolStripMenuItem();
+            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
             dateTimePicker1 = new DateTimePicker();
             panel1 = new Panel();
             button9 = new Button();
             monthCalendar1 = new MonthCalendar();
-            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             panel5.SuspendLayout();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -60,7 +60,7 @@
             panel5.Dock = DockStyle.Top;
             panel5.Location = new Point(0, 0);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1088, 62);
+            panel5.Size = new Size(1562, 62);
             panel5.TabIndex = 23;
             // 
             // menuStrip1
@@ -71,7 +71,7 @@
             menuStrip1.Location = new Point(0, 3);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(901, 55);
+            menuStrip1.Size = new Size(781, 55);
             menuStrip1.TabIndex = 24;
             menuStrip1.Text = "INICI";
             // 
@@ -90,6 +90,7 @@
             iNICIToolStripMenuItem.Name = "iNICIToolStripMenuItem";
             iNICIToolStripMenuItem.Size = new Size(68, 51);
             iNICIToolStripMenuItem.Text = "INICI";
+            iNICIToolStripMenuItem.Click += iNICIToolStripMenuItem_Click;
             // 
             // pERFILToolStripMenuItem
             // 
@@ -98,6 +99,7 @@
             pERFILToolStripMenuItem.Name = "pERFILToolStripMenuItem";
             pERFILToolStripMenuItem.Size = new Size(84, 51);
             pERFILToolStripMenuItem.Text = "PERFIL";
+            pERFILToolStripMenuItem.Click += pERFILToolStripMenuItem_Click;
             // 
             // hORARIToolStripMenuItem
             // 
@@ -114,6 +116,7 @@
             tASQUESToolStripMenuItem.Name = "tASQUESToolStripMenuItem";
             tASQUESToolStripMenuItem.Size = new Size(110, 51);
             tASQUESToolStripMenuItem.Text = "TASQUES";
+            tASQUESToolStripMenuItem.Click += tASQUESToolStripMenuItem_Click;
             // 
             // pROGRÈSToolStripMenuItem
             // 
@@ -122,6 +125,7 @@
             pROGRÈSToolStripMenuItem.Name = "pROGRÈSToolStripMenuItem";
             pROGRÈSToolStripMenuItem.Size = new Size(108, 51);
             pROGRÈSToolStripMenuItem.Text = "PROGRÈS";
+            pROGRÈSToolStripMenuItem.Click += pROGRÈSToolStripMenuItem_Click;
             // 
             // rECURSOSToolStripMenuItem
             // 
@@ -130,11 +134,21 @@
             rECURSOSToolStripMenuItem.Name = "rECURSOSToolStripMenuItem";
             rECURSOSToolStripMenuItem.Size = new Size(121, 51);
             rECURSOSToolStripMenuItem.Text = "RECURSOS";
+            rECURSOSToolStripMenuItem.Click += rECURSOSToolStripMenuItem_Click;
+            // 
+            // cONTACTEToolStripMenuItem
+            // 
+            cONTACTEToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cONTACTEToolStripMenuItem.ForeColor = Color.White;
+            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
+            cONTACTEToolStripMenuItem.Size = new Size(124, 51);
+            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
             // 
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.logoo;
-            pictureBox6.Location = new Point(852, -11);
+            pictureBox6.Location = new Point(1338, -11);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(124, 69);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
@@ -144,7 +158,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.logooo;
-            pictureBox7.Location = new Point(972, 3);
+            pictureBox7.Location = new Point(1458, 3);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(63, 45);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -164,7 +178,7 @@
             panel1.Controls.Add(button9);
             panel1.Controls.Add(dateTimePicker1);
             panel1.Controls.Add(monthCalendar1);
-            panel1.Location = new Point(218, 77);
+            panel1.Location = new Point(459, 89);
             panel1.Name = "panel1";
             panel1.Size = new Size(603, 468);
             panel1.TabIndex = 26;
@@ -180,6 +194,7 @@
             button9.TabIndex = 25;
             button9.Text = "CREA ";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // monthCalendar1
             // 
@@ -188,19 +203,11 @@
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 27;
             // 
-            // cONTACTEToolStripMenuItem
-            // 
-            cONTACTEToolStripMenuItem.Font = new Font("Alef", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cONTACTEToolStripMenuItem.ForeColor = Color.White;
-            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
-            cONTACTEToolStripMenuItem.Size = new Size(124, 51);
-            cONTACTEToolStripMenuItem.Text = "CONTACTE";
-            // 
             // Horari
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1088, 507);
+            ClientSize = new Size(1562, 611);
             Controls.Add(panel1);
             Controls.Add(panel5);
             Name = "Horari";

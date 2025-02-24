@@ -59,6 +59,7 @@
             panel5 = new Panel();
             pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
+            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -78,11 +79,11 @@
             // 
             menuStrip1.BackColor = Color.RosyBrown;
             menuStrip1.Dock = DockStyle.None;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, iNICIToolStripMenuItem, pERFILToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, iNICIToolStripMenuItem, pERFILToolStripMenuItem, cONTACTEToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(231, 55);
+            menuStrip1.Size = new Size(484, 55);
             menuStrip1.TabIndex = 13;
             menuStrip1.Text = "INICI";
             // 
@@ -97,7 +98,7 @@
             // iNICIToolStripMenuItem
             // 
             iNICIToolStripMenuItem.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iNICIToolStripMenuItem.ForeColor = Color.Firebrick;
+            iNICIToolStripMenuItem.ForeColor = Color.Maroon;
             iNICIToolStripMenuItem.Name = "iNICIToolStripMenuItem";
             iNICIToolStripMenuItem.Size = new Size(71, 51);
             iNICIToolStripMenuItem.Text = "INICI";
@@ -109,10 +110,10 @@
             pERFILToolStripMenuItem.Name = "pERFILToolStripMenuItem";
             pERFILToolStripMenuItem.Size = new Size(90, 51);
             pERFILToolStripMenuItem.Text = "PERFIL";
+            pERFILToolStripMenuItem.Click += pERFILToolStripMenuItem_Click;
             // 
             // panel1
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = Color.RosyBrown;
             panel1.Controls.Add(button9);
             panel1.Controls.Add(pictureBox1);
@@ -134,6 +135,7 @@
             button9.TabIndex = 11;
             button9.Text = "HORARI";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click_1;
             // 
             // pictureBox1
             // 
@@ -177,7 +179,6 @@
             // 
             // panel2
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel2.BackColor = Color.RosyBrown;
             panel2.Controls.Add(button10);
             panel2.Controls.Add(pictureBox2);
@@ -199,6 +200,7 @@
             button10.TabIndex = 12;
             button10.Text = "TASQUES";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click_1;
             // 
             // pictureBox2
             // 
@@ -242,7 +244,6 @@
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel3.BackColor = Color.RosyBrown;
             panel3.Controls.Add(button11);
             panel3.Controls.Add(pictureBox3);
@@ -264,6 +265,7 @@
             button11.TabIndex = 12;
             button11.Text = "PROGRÈS";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click_1;
             // 
             // pictureBox3
             // 
@@ -328,6 +330,7 @@
             button12.TabIndex = 12;
             button12.Text = "RECURSOS";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click_1;
             // 
             // pictureBox4
             // 
@@ -385,6 +388,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 19;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // label1
             // 
@@ -396,7 +400,6 @@
             label1.Size = new Size(109, 43);
             label1.TabIndex = 20;
             label1.Text = "DIJAA";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -407,7 +410,6 @@
             label2.Size = new Size(572, 26);
             label2.TabIndex = 21;
             label2.Text = "Nivell Educatiu, progrès de matèries, Avisos de tasques o events ";
-            label2.Click += label2_Click;
             // 
             // panel5
             // 
@@ -440,6 +442,15 @@
             pictureBox6.TabIndex = 23;
             pictureBox6.TabStop = false;
             // 
+            // cONTACTEToolStripMenuItem
+            // 
+            cONTACTEToolStripMenuItem.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cONTACTEToolStripMenuItem.ForeColor = Color.White;
+            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
+            cONTACTEToolStripMenuItem.Size = new Size(133, 51);
+            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
+            // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -458,7 +469,6 @@
             Controls.Add(panel5);
             Name = "MenuPrincipal";
             Text = "Form1";
-            Load += MenuPrincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             panel1.ResumeLayout(false);
@@ -514,5 +524,6 @@
         private Panel panel5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
+        private ToolStripMenuItem cONTACTEToolStripMenuItem;
     }
 }
