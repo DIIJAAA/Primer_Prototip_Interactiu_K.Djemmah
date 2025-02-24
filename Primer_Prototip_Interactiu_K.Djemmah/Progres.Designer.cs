@@ -93,7 +93,7 @@
             menuStrip1.Location = new Point(0, 3);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(781, 55);
+            menuStrip1.Size = new Size(901, 55);
             menuStrip1.TabIndex = 24;
             menuStrip1.Text = "INICI";
             // 
@@ -156,6 +156,7 @@
             toolStripMenuItem14.Name = "toolStripMenuItem14";
             toolStripMenuItem14.Size = new Size(121, 51);
             toolStripMenuItem14.Text = "RECURSOS";
+            toolStripMenuItem14.Click += toolStripMenuItem14_Click;
             // 
             // cONTACTEToolStripMenuItem
             // 

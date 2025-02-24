@@ -50,7 +50,7 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
         }
 
         // Obrir formulari Recursos
-        private void toolStripMenuItem13_Click(object sender, EventArgs e)
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
         {
             this.Hide();
             Recursos recursosForm = new Recursos();
@@ -97,5 +97,6 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
         {
             MessageBox.Show("Desbloqueja el premi per obtenir la recompensa.", "Premi Bloquejat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
     }
 }
