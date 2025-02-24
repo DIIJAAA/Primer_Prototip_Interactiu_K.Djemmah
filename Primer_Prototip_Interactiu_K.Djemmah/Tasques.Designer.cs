@@ -76,7 +76,7 @@
             menuStrip2.Location = new Point(9, 3);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip2.Size = new Size(781, 55);
+            menuStrip2.Size = new Size(901, 55);
             menuStrip2.TabIndex = 24;
             menuStrip2.Text = "INICI";
             // 
@@ -129,7 +129,7 @@
             toolStripMenuItem7.ForeColor = Color.White;
             toolStripMenuItem7.Name = "toolStripMenuItem7";
             toolStripMenuItem7.Size = new Size(108, 51);
-            toolStripMenuItem7.Text = "PROGRÈS";
+            toolStripMenuItem7.Text = "PROGRÉS";
             toolStripMenuItem7.Click += toolStripMenuItem7_Click;
             // 
             // toolStripMenuItem8

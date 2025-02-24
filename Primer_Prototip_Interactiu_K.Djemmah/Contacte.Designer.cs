@@ -22,6 +22,11 @@
             textBox4 = new TextBox();
             button2 = new Button();
             panel1 = new Panel();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            richTextBox1 = new RichTextBox();
             panel5 = new Panel();
             menuStrip1 = new MenuStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
@@ -34,11 +39,6 @@
             toolStripMenuItem9 = new ToolStripMenuItem();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
-            richTextBox1 = new RichTextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -107,6 +107,59 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(785, 505);
             panel1.TabIndex = 19;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(94, 219);
+            label4.Name = "label4";
+            label4.Size = new Size(177, 28);
+            label4.TabIndex = 26;
+            label4.Text = "Correu electrònic";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(138, 145);
+            label3.Name = "label3";
+            label3.Size = new Size(133, 28);
+            label3.TabIndex = 25;
+            label3.Text = "Contrasenya";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(195, 73);
+            label2.Name = "label2";
+            label2.Size = new Size(76, 28);
+            label2.TabIndex = 24;
+            label2.Text = "Usuari";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(177, 294);
+            label1.Name = "label1";
+            label1.Size = new Size(95, 28);
+            label1.TabIndex = 23;
+            label1.Text = "Consulta";
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Font = new Font("Alef", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            richTextBox1.Location = new Point(300, 284);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(316, 93);
+            richTextBox1.TabIndex = 22;
+            richTextBox1.Text = "";
             // 
             // panel5
             // 
@@ -182,7 +235,7 @@
             pROGRÈSToolStripMenuItem.ForeColor = Color.White;
             pROGRÈSToolStripMenuItem.Name = "pROGRÈSToolStripMenuItem";
             pROGRÈSToolStripMenuItem.Size = new Size(108, 51);
-            pROGRÈSToolStripMenuItem.Text = "PROGRÈS";
+            pROGRÈSToolStripMenuItem.Text = "PROGRÉS";
             pROGRÈSToolStripMenuItem.Click += pROGRÈSToolStripMenuItem_Click;
             // 
             // rECURSOSToolStripMenuItem
@@ -221,58 +274,6 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 24;
             pictureBox7.TabStop = false;
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.Location = new Point(300, 284);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(316, 93);
-            richTextBox1.TabIndex = 22;
-            richTextBox1.Text = "";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(177, 294);
-            label1.Name = "label1";
-            label1.Size = new Size(95, 28);
-            label1.TabIndex = 23;
-            label1.Text = "Consulta";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(195, 73);
-            label2.Name = "label2";
-            label2.Size = new Size(76, 28);
-            label2.TabIndex = 24;
-            label2.Text = "Usuari";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(138, 145);
-            label3.Name = "label3";
-            label3.Size = new Size(133, 28);
-            label3.TabIndex = 25;
-            label3.Text = "Contrasenya";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(94, 219);
-            label4.Name = "label4";
-            label4.Size = new Size(177, 28);
-            label4.TabIndex = 26;
-            label4.Text = "Correu electrònic";
             // 
             // Contacte
             // 

@@ -43,10 +43,17 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             textBox1 = new TextBox();
             button9 = new Button();
+            listView1 = new ListView();
+            listView2 = new ListView();
+            listView3 = new ListView();
+            listView4 = new ListView();
+            listView5 = new ListView();
+            listView6 = new ListView();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -123,7 +130,7 @@
             toolStripMenuItem13.ForeColor = Color.White;
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(108, 51);
-            toolStripMenuItem13.Text = "PROGRÈS";
+            toolStripMenuItem13.Text = "PROGRÉS";
             toolStripMenuItem13.Click += toolStripMenuItem13_Click;
             // 
             // toolStripMenuItem14
@@ -170,6 +177,12 @@
             tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.InsetDouble;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(listView6, 0, 5);
+            tableLayoutPanel1.Controls.Add(listView5, 0, 4);
+            tableLayoutPanel1.Controls.Add(listView4, 0, 3);
+            tableLayoutPanel1.Controls.Add(listView3, 0, 2);
+            tableLayoutPanel1.Controls.Add(listView2, 0, 1);
+            tableLayoutPanel1.Controls.Add(listView1, 0, 0);
             tableLayoutPanel1.Location = new Point(108, 201);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 8;
@@ -204,6 +217,66 @@
             button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
             // 
+            // listView1
+            // 
+            listView1.BackColor = Color.LavenderBlush;
+            listView1.Dock = DockStyle.Fill;
+            listView1.Location = new Point(6, 6);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(1244, 43);
+            listView1.TabIndex = 0;
+            listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView2
+            // 
+            listView2.BackColor = Color.LavenderBlush;
+            listView2.Dock = DockStyle.Fill;
+            listView2.Location = new Point(6, 58);
+            listView2.Name = "listView2";
+            listView2.Size = new Size(1244, 43);
+            listView2.TabIndex = 1;
+            listView2.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView3
+            // 
+            listView3.BackColor = Color.LavenderBlush;
+            listView3.Dock = DockStyle.Fill;
+            listView3.Location = new Point(6, 110);
+            listView3.Name = "listView3";
+            listView3.Size = new Size(1244, 43);
+            listView3.TabIndex = 2;
+            listView3.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView4
+            // 
+            listView4.BackColor = Color.LavenderBlush;
+            listView4.Dock = DockStyle.Fill;
+            listView4.Location = new Point(6, 162);
+            listView4.Name = "listView4";
+            listView4.Size = new Size(1244, 43);
+            listView4.TabIndex = 3;
+            listView4.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView5
+            // 
+            listView5.BackColor = Color.LavenderBlush;
+            listView5.Dock = DockStyle.Fill;
+            listView5.Location = new Point(6, 214);
+            listView5.Name = "listView5";
+            listView5.Size = new Size(1244, 43);
+            listView5.TabIndex = 4;
+            listView5.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView6
+            // 
+            listView6.BackColor = Color.LavenderBlush;
+            listView6.Dock = DockStyle.Fill;
+            listView6.Location = new Point(6, 266);
+            listView6.Name = "listView6";
+            listView6.Size = new Size(1244, 43);
+            listView6.TabIndex = 5;
+            listView6.UseCompatibleStateImageBehavior = false;
+            // 
             // Recursos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -221,6 +294,7 @@
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -242,5 +316,11 @@
         private TableLayoutPanel tableLayoutPanel1;
         private TextBox textBox1;
         private Button button9;
+        private ListView listView6;
+        private ListView listView5;
+        private ListView listView4;
+        private ListView listView3;
+        private ListView listView2;
+        private ListView listView1;
     }
 }

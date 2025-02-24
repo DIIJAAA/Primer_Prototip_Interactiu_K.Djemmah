@@ -32,6 +32,7 @@
             toolStripMenuItem1 = new ToolStripMenuItem();
             iNICIToolStripMenuItem = new ToolStripMenuItem();
             pERFILToolStripMenuItem = new ToolStripMenuItem();
+            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             panel1 = new Panel();
             button9 = new Button();
             pictureBox1 = new PictureBox();
@@ -59,7 +60,6 @@
             panel5 = new Panel();
             pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
-            cONTACTEToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -83,7 +83,7 @@
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(484, 55);
+            menuStrip1.Size = new Size(364, 55);
             menuStrip1.TabIndex = 13;
             menuStrip1.Text = "INICI";
             // 
@@ -111,6 +111,15 @@
             pERFILToolStripMenuItem.Size = new Size(90, 51);
             pERFILToolStripMenuItem.Text = "PERFIL";
             pERFILToolStripMenuItem.Click += pERFILToolStripMenuItem_Click;
+            // 
+            // cONTACTEToolStripMenuItem
+            // 
+            cONTACTEToolStripMenuItem.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cONTACTEToolStripMenuItem.ForeColor = Color.White;
+            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
+            cONTACTEToolStripMenuItem.Size = new Size(133, 51);
+            cONTACTEToolStripMenuItem.Text = "CONTACTE";
+            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
             // 
             // panel1
             // 
@@ -263,7 +272,7 @@
             button11.Name = "button11";
             button11.Size = new Size(108, 32);
             button11.TabIndex = 12;
-            button11.Text = "PROGRÈS";
+            button11.Text = "PROGRÉS";
             button11.UseVisualStyleBackColor = false;
             button11.Click += button11_Click_1;
             // 
@@ -441,15 +450,6 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 23;
             pictureBox6.TabStop = false;
-            // 
-            // cONTACTEToolStripMenuItem
-            // 
-            cONTACTEToolStripMenuItem.Font = new Font("Alef", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cONTACTEToolStripMenuItem.ForeColor = Color.White;
-            cONTACTEToolStripMenuItem.Name = "cONTACTEToolStripMenuItem";
-            cONTACTEToolStripMenuItem.Size = new Size(133, 51);
-            cONTACTEToolStripMenuItem.Text = "CONTACTE";
-            cONTACTEToolStripMenuItem.Click += cONTACTEToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 

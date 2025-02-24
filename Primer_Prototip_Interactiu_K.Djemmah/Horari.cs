@@ -72,6 +72,9 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
             MessageBox.Show("Un cop afegida la data i hora, has creat l'event correctament. Es mostrarà una notificació quan quedi poc per a l'event.", "Event Creat", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-       
+        private void richTextBox16_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

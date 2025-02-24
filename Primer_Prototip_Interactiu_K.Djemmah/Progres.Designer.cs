@@ -147,7 +147,7 @@
             toolStripMenuItem13.ForeColor = Color.Maroon;
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(108, 51);
-            toolStripMenuItem13.Text = "PROGRÈS";
+            toolStripMenuItem13.Text = "PROGRÉS";
             // 
             // toolStripMenuItem14
             // 

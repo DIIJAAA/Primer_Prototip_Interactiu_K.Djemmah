@@ -26,7 +26,14 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
         // Botó per guardar els canvis del perfil
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("S'ha generat l'informe correctament.", "Informe generat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Mostra el missatge que ja tenies
+            MessageBox.Show("S'ha generat l'informe correctament.", "Informe Generat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // Afegir el text "Lorem ipsum" al RichTextBox
+            richTextBox1.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+                                "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris " +
+                                "nisi ut aliquip ex ea commodo consequat.";
         }
 
         // Obrir formulari MenuPrincipal
@@ -81,6 +88,12 @@ namespace Primer_Prototip_Interactiu_K.Djemmah
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Has canviat la teva imatge de perfil!", "Informació", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("L'informe s'ha descarregat correctament.", "Informe Descarregat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            richTextBox1.Clear(); // Neteja el contingut del RichTextBox
         }
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perfil));
             panel1 = new Panel();
             menuStrip1 = new MenuStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
@@ -80,7 +79,7 @@
             menuStrip1.Location = new Point(0, 3);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(781, 55);
+            menuStrip1.Size = new Size(901, 55);
             menuStrip1.TabIndex = 24;
             menuStrip1.Text = "INICI";
             // 
@@ -133,7 +132,7 @@
             toolStripMenuItem13.ForeColor = Color.White;
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(108, 51);
-            toolStripMenuItem13.Text = "PROGRÈS";
+            toolStripMenuItem13.Text = "PROGRÉS";
             toolStripMenuItem13.Click += toolStripMenuItem13_Click;
             // 
             // toolStripMenuItem14
@@ -227,11 +226,12 @@
             // 
             // richTextBox1
             // 
+            richTextBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.Location = new Point(15, 20);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(463, 259);
             richTextBox1.TabIndex = 36;
-            richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            richTextBox1.Text = "";
             // 
             // button9
             // 
@@ -244,6 +244,7 @@
             button9.TabIndex = 36;
             button9.Text = "DESCARREGAR";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // progressBar1
             // 
